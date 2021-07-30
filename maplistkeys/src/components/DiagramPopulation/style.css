@@ -1,0 +1,22 @@
+.popu-item {
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    align-items: center;
+}
+
+.name {
+    flex: 3;
+}
+
+.progress {
+    flex: 6;
+}
+
+.myProgress {
+    width: 100%;
+}
+
+.score {
+    flex: 3
+}
