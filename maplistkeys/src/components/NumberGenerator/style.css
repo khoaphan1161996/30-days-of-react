@@ -1,8 +1,0 @@
-.number-list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 900px;
-}
