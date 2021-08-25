@@ -1,0 +1,27 @@
+.search__group {
+  background-color: #fff;
+  padding: 40px;
+}
+
+.search__group-input {
+  padding: 20px;
+  background-color: #faf6f6;
+  border-radius: 3rem;
+  width: 40%;
+  outline: none;
+  border: .2rem solid #f8e7e7;
+  min-width: 250px;
+  font-size: 28px;
+  font-weight: lighter;
+  color: orange;
+}
+
+.search__group-chart {
+  color: orange;
+  margin-top: 40px;
+}
+
+.search__group-chart .fas {
+  font-size: 56px;
+}
+/*# sourceMappingURL=style.css.map */

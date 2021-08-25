@@ -1,0 +1,32 @@
+.result__item {
+  background-color: #fff;
+  padding: 30px 5px;
+  margin: 5px;
+  width: 20%;
+  min-height: 500px;
+  max-height: 500px;
+}
+
+.result__item img {
+  max-width: 200px;
+  max-height: 150px;
+  min-width: 200px;
+  min-height: 150px;
+  border-radius: .3rem;
+}
+
+.result__item h3 {
+  letter-spacing: .025rem;
+  font-weight: 600;
+  color: orange;
+}
+
+.result__item-text p .bold {
+  font-weight: bold;
+}
+
+.result__item h3, .result__item-text {
+  font-size: 28px;
+  padding: 20px 0;
+}
+/*# sourceMappingURL=style.css.map */

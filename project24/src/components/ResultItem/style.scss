@@ -1,0 +1,32 @@
+$width: 200px;
+$height: 150px;
+
+.result__item {
+    background-color: #fff;
+    padding: 30px 5px;
+    margin: 5px;
+    width: 20%;
+    min-height: 500px;
+    max-height: 500px;
+    img {
+        max-width: $width;
+        max-height: $height;
+        min-width: $width;
+        min-height: $height;
+        border-radius: .3rem;
+    }
+    h3 {
+        letter-spacing: .025rem;
+        font-weight: 600;
+        color: orange;
+    }
+    &-text {
+        p .bold {
+            font-weight: bold;
+        }
+    }
+    h3,&-text {
+        font-size: 28px;
+        padding: 20px 0;
+    }
+}

@@ -1,0 +1,24 @@
+.search__group {
+    background-color: #fff;
+    padding: 40px;
+    &-input {
+        padding: 20px;
+        background-color: #faf6f6;
+        border-radius: 3rem;
+        width: 40%;
+        outline: none;
+        border: .2rem solid #f8e7e7;
+        min-width: 250px;
+        font-size: 28px;
+        font-weight: lighter;
+        color: orange
+    }
+
+    &-chart {
+        color: orange;
+        margin-top: 40px;
+        .fas {
+            font-size: 56px;
+        }
+    }
+}
