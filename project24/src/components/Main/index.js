@@ -1,15 +1,17 @@
 import React,{useState, useEffect} from "react";
 import Search from '../Search'
 import Result from '../Result'
+import Button from '../Button'
+import Chart from '../Chart'
 
 import axios from 'axios'
 
 import './style.css'
 
-
 export default function Main() {
-    const [data,setData] = useState([])
+    let [data,setData] = useState([])
     const [keyword,setKeyword] = useState('')
+    const [sortName,setSortName] = useState(0)
 
     useEffect( () => {
         async function fetchList() {
@@ -27,14 +29,23 @@ export default function Main() {
     },[])
 
     const onChangeValue = (value) => {
-        console.log(value)
+        setKeyword(value)
+    }
+
+    const onClickValue = (action) => {
+        setSortName(action)
     }
     
+    if(keyword) {
+        data = data.filter(item => item.name.indexOf(keyword) !== -1)
+    }
 
     return (
         <div className="main">
             <Search onChangeValue={onChangeValue}/>
             <Result data={data} onChangeValue={onChangeValue}/>
+            <Button onClickValue={onClickValue} sortName={sortName}/>
+            <Chart data={data} sortName={sortName}/>
         </div>
     )
 }

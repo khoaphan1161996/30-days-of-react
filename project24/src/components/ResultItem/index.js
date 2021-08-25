@@ -11,7 +11,7 @@ export default function ResultItem({item}) {
         result = result.split('')
         let count = 1
         for(let i = result.length-1; i>=0;i--) {
-            if(count%3==0) result.splice(i,0,',')
+            if(count%3===0 && i!==0) result.splice(i,0,',')
             count ++
         }
 

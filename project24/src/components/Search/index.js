@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import "./style.css";
 
@@ -20,9 +20,9 @@ export default function Search(props) {
         onChange={onChangeValue}
       />
 
-      <div className="search__group-chart">
+      <a className="search__group-chart" href={'#chart'}>
         <i className="fas fa-chart-bar"></i>
-      </div>
+      </a>
     </div>
   );
 }

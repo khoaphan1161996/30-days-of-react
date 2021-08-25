@@ -17,8 +17,14 @@
 }
 
 .search__group-chart {
+  display: block;
   color: orange;
   margin-top: 40px;
+  cursor: pointer;
+}
+
+.search__group-chart :hover {
+  opacity: 0.8;
 }
 
 .search__group-chart .fas {

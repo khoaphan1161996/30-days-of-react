@@ -1,0 +1,24 @@
+.btn {
+  background-color: #fff;
+  border-top: 1px solid #eeeeeeeb;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.btn button {
+  font-size: 24px;
+  background-color: orange;
+  padding: 10px 20px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  margin: 6px;
+}
+
+.btn p {
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.css.map */

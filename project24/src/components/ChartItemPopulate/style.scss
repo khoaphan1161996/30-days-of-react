@@ -1,0 +1,22 @@
+.chart-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px
+}
+
+.name {
+    flex: 2;
+}
+
+.progress {
+    flex: 8;
+}
+
+.myProgress {
+    width: 100%;
+}
+
+.score {
+    flex: 2
+}
